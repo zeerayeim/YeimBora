@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hello, I'm Bora, an Ethical Hacker and Cyber Security Researcher.">
+    <meta property="og:type" content="website">
+    <meta name="author" content="BoraYeim">
+    <meta name="copyright" content="BoraYeim">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Zeera-YeimBora">
+    <meta property="og:description" content="Hello, I'm Bora, an Ethical Hacker and Cyber Security Researcher.">
+    <meta property="og:image" content="https://yeimbora-project.vercel.app/img/img.jpg">
+    <meta property="og:url" content="https://yeimbora-project.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta name="keywords"
+        content="hacker, ethical hacker, bora hacker, yeimbora, borahacker, cyber security" />
+    <meta property="og:site_name" content="Zeera Hacker - BoraYeim">
+    <meta property="og:locale" content="en_US">
+    <meta property="profile:first_name" content="BoraYeim">
+    <meta property="profile:last_name" content="Bora">
+    <title>Zeera- BoraYeim</title>
+    <!-- schema data -->
+    <script type="application/ld+json">
+    { "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "dateCreated": "2024-07-26T15:54:09-05:00",
+        "dateModified": "2024-07-26T15:54:09-05:00",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Bora Yeim",
+            "alternateName": [
+                "BoraYeim",
+                "Bora Hacker",
+                "Bora The Hacker"
+            ],
+            "gender": "Male",
+            "url": "https://yeimbora-project.vercel.app/",
+            "image": "https://yeimbora-project.vercel.app/img/img.jpg",
+            "sameAs": [
+                "https://www.tiktok.com/@bora.cyber",
+                "https://www.facebook.com/profile.php?id=100042888410559&mibextid=LQQJ4d",
+                "https://t.me/borayeim",
+                "https://github.com/Borayeim"
+            ],
+            "jobTitle": "Ethical Hacker, Content Creator, Blogger",
+            "birthPlace": {
+                "@type": "Place",
+                "name": "phnom penh, cambodia"
+            },
+            "nationality": "Cambodia",
+            "knowsAbout": [
+                "Ethical Hacking",
+                "Programming",
+                "Cybersecurity",
+                "Web Development",
+                "Blogging"
+            ],
+            "knowsLanguage": [
+                "English",
+                "Khmer"
+            ],
+            "description": "Hello, I'm Bora, an Ethical Hacker and Cyber Security Researcher. I protect digital ecosystems with proactive measures, innovative solutions, and a strong commitment to ethics.",
+            "interactionStatistic": [
+                {
+                    "@type": "InteractionCounter",
+                    "interactionType": "https://schema.org/FollowAction",
+                    "userInteractionCount": 1
+                },
+                {
+                    "@type": "InteractionCounter",
+                    "interactionType": "https://schema.org/LikeAction",
+                    "userInteractionCount": 5
+                }
+            ],
+            "agentInteractionStatistic": {
+                "@type": "InteractionCounter",
+                "interactionType": "https://schema.org/WriteAction",
+                "userInteractionCount": 2346
+            }
+        }
+    }
+       
+    </script>
+
+    <link rel="shortcut icon" type="x-icon" href="img/incognito.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="progress"></div>
+    </div>
+
+    <!-- header -->
+    <header class="header">
+        <nav>
+            <a href="#home">
+                <button class="active">
+                    <i class="fa-solid fa-hat-cowboy"></i>
+                </button>
+            </a>
+
+            <a href="#about">
+                <button>about</button>
+            </a>
+            <a href="#work">
+                <button>Work</button>
+            </a>
+            <a href="#skills">
+                <button>Skills</button>
+            </a>
+            <a href="#blog">
+                <button>Blog</button>
+            </a>
+            <a href="#contact">
+                <button>contact</button>
+            </a>
+        </nav>
+    </header>
+    
+
+
+    <!-- home -->
+    <section id="home">
+        <div class="container snow">
+            <div class="portrait-fx" aria-hidden="true">
+                <canvas id="matrix-rain"></canvas>
+                <span class="ring ring-1"><i></i></span>
+                <span class="ring ring-2"><i></i></span>
+                <span class="pulse"></span>
+            </div>
+            <div class="hacker-portrait">
+                <img src="img/bora.png" alt="Portrait of Bora Yeim" id="img" class="responsive-img">
+                <img src="img/bora.png" alt="" aria-hidden="true" class="ghost ghost-r">
+                <img src="img/bora.png" alt="" aria-hidden="true" class="ghost ghost-c">
+                <span class="scan" aria-hidden="true"></span>
+                <div class="hud-layer" aria-hidden="true">
+                    <span class="hud hud-tl">&gt; <span class="hud-cmd">root@bora:~# </span>access_granted</span>
+                    <span class="hud hud-br">[ SYSTEM BREACHED ]</span>
+                </div>
+            </div>
+            
+        </div>
+         <!-- Spline robot disabled: it showed through the transparent portrait (stray "End" text + watermark).
+              To re-enable, uncomment this and the <script> at the bottom, and remove ".robot{display:none}" in style.css.
+         <spline-viewer class="robot" url="https://prod.spline.design/l6LnJvJaw7XyZxt8/scene.splinecode"></spline-viewer>
+         -->
+        <div class="left">
+          
+            <h1 class="hero-subtitle">I am <span>YeimBora</span></h1>
+            <h1 class="hero-title">
+                DEVELOPER +
+                <p id="ani-txt">FiveM Developer</p>
+            </h1>
+            <p class="hero-lead">Passionate about technology, I specialize in developer and cyber security Attacker,
+                dedicated to protecting and securing digital landscapes.</p>
+            <div class="social-btns">
+                <h5 class="hero-lead">Follow me</h5>
+                <!-- From Uiverse.io by vinodjangid07 --> 
+            <button class="open-file" onclick="openCV()">
+            <span class="file-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 71 67">
+            <path
+            stroke-width="5"
+            stroke="black"
+            d="M41.7322 11.7678L42.4645 12.5H43.5H68.5V64.5H2.5V2.5H32.4645L41.7322 11.7678Z"
+            ></path>
+             </svg>
+             <span class="file-front"></span>
+             </span>
+             CV
+            </button>
+
+
+
+                <a href="https://github.com/Borayeim" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://t.me/borayeim" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100042888410559&mibextid=LQQJ4d" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.tiktok.com/@bora.cyber" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="right"></div>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <h1 class="hero-title">About me</h1>
+        <p class="hero-lead">
+            Hello, my name is Bora, an developer  and cyber security researcher and programmer Designer. 
+            I protect the digital ecosystem with proactive measures, innovative solutions and a strong commitment to ethics.
+        </p>
+
+        <h1 class="hero-title">What I'm doing</h1>
+        <div class="ability">
+            <div class="ability-block">
+                <h1 class="title">Ethical hacking</h1>
+                <p>legally probing systems to enhance cybersecurity, preempting potential breaches.</p>
+            </div>
+
+            <div class="ability-block">
+                <h1 class="title">Tool development</h1>
+                <p>creating cybersecurity tools and software with the goal of finding and fixing system flaws to provide
+                    strong digital defence.</p>
+            </div>
+
+            <div class="ability-block">
+                <h1 class="title">Web development</h1>
+                <p>I am a web developer, a programmer who creates World Wide Web applications using a client-server model. Programs typically use HTML, CSS and JavaScript in the client and any general purpose programming language in the server.</p>
+            </div>
+
+            <div class="ability-block">
+                <h1 class="title">Content creation</h1>
+                <p>Sharing knowledge through engaging content, tutorials, and insights on cybersecurity trends and
+                    techniques.</p>
+            </div>
+
+            <div class="ability-block">
+                <h1 class="title">Design</h1>
+                <p>A rural designer who likes to make posters and design anything.</p>
+            </div>
+
+            
+            <div class="ability-block">
+                <h1 class="title">FiveM Developer</h1>
+                <p>A passionate FiveM developer specializing in server development, custom scripts, debugging, and creating unique roleplay experiences with QBCore, Qbox, and ESX.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- work -->
+    <section id="work">
+        <h1 class="hero-title">Work</h1>
+
+        <div class="work-container">
+            <div class="head">
+                <img src="./src/work/tools.png" loading="lazy" alt="tool development">
+                <div>
+                    <h3 class="hero-subtitle">Tool Development</h3>
+                    <p class="hero-lead">Designing and developing innovative cybersecurity tools and software aimed at
+                        identifying
+                        vulnerabilities and reinforcing digital defenses.</p>
+                </div>
+            </div>
+
+            <div class="body">
+                <a href="..." target="_blank">
+                    <img src="./src/work/phishing.png" loading="lazy" alt="White spikes">
+                    <div>
+                        <h4>White spikes</h4>
+                        <p class="hero-lead">Automated Social Media Phishing Tool. Automated tool that allow us to hack
+                            accounts with 2FA
+                            Bypass.</p>
+                    </div>
+                </a>
+
+                <a href=".." target="_blank">
+                    <img src="./src/work/windows.png" loading="lazy" alt="Cyrix86">
+                    <div>
+                        <h4>cyrix86</h4>
+                        <p class="hero-lead">Windows high-level payload. CYRIx86 provides you with a fully GUI-based
+                            control panel for
+                            attacks.</p>
+                    </div>
+                </a>
+
+                <a href="..." target="_blank">
+                    <img src="./src/work/keyboard.png" loading="lazy" alt="keymon">
+                    <div>
+                        <h4>keymon</h4>
+                        <p class="hero-lead">Keylogger with a GUI-based panel. Log real-time keystrokes</p>
+                    </div>
+                </a>
+
+                <a href="..." target="_blank">
+                    <img src="./src/work/powershell.png" loading="lazy" alt="Powershell-Kovak">
+                    <div>
+                        <h4>Powershell-Kovak</h4>
+                        <p class="hero-lead">Powershell-Kovak is a Powershell obfuscation tool built with Node.js,
+                            designed for ethical
+                            hacking purposes.</p>
+                    </div>
+                </a>
+
+                <a href="..." target="_blank">
+                    <img src="./src/work/hide.png" loading="lazy" alt="EnigmaScope">
+                    <div>
+                        <h4>EnigmaScope</h4>
+                        <p class="hero-lead">EnigmaScope is a flexible Python utility that hides and encapsulates
+                            several components into
+                            a
+                            single container.</p>
+                    </div>
+                </a>
+
+                <a href="..." target="_blank">
+                    <img src="./src/work/recontime.png" loading="lazy" alt="recontime">
+                    <div>
+                        <h4>recontime</h4>
+                        <p class="hero-lead">recontime is a comprehensive bug hunting tool designed for ethical hacking
+                            purposes.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="work-container">
+            <div class="head reverse">
+                <img src="./src/work/dev.png" loading="lazy" alt="tool development">
+                <div>
+                    <h3 class="hero-subtitle">Dev Tools / Others</h3>
+                    <p class="hero-lead">Building efficient software and packages to streamline development processes,
+                        boost productivity, and enhance collaboration.
+                    </p>
+                </div>
+            </div>
+
+            <div class="body">
+                <a href="....">
+                    <img src="./src/work/saturjs_logo.webp" loading="lazy" alt="SaturJs">
+                    <div>
+                        <h4>SaturJs</h4>
+                        <p class="hero-lead">A lightweight web library that combines the best of server-side rendering
+                            and client-side state management.</p>
+                    </div>
+                </a>
+                <a href="...">
+                    <img src="./src/work/db.png" loading="lazy" alt="octavia DB">
+                    <div>
+                        <h4>octavia DB</h4>
+                        <p class="hero-lead">OctaviaDB is a lightweight Node.js module for creating encrypted
+                            collections of data on the
+                            filesystem.</p>
+                    </div>
+                </a>
+                <a href="....">
+                    <img src="./src/work/web.png" loading="lazy" alt="tarkine template engine">
+                    <div>
+                        <h4>tarkine</h4>
+                        <p class="hero-lead">tarkine - A powerful and flexible template engine for Node.js applications.
+                        </p>
+                    </div>
+                </a>
+                <a href="..">
+                    <img src="./src/work/api.png" loading="lazy" alt="octavia api">
+                    <div>
+                        <h4>octavia api</h4>
+                        <p class="hero-lead">octavia-api is an API for an octavia-client.</p>
+                    </div>
+                </a>
+                <a href="...">
+                    <img src="./src/work/live.png" loading="lazy" alt="octavia client">
+                    <div>
+                        <h4>octavia client</h4>
+                        <p class="hero-lead">octavia client is a client for an octavia-api.</p>
+                    </div>
+                </a>
+                <a href="....">
+                    <img src="./src/work/theme.png" loading="lazy" alt="0chunks theme">
+                    <div>
+                        <h4>0chunks theme</h4>
+                        <p class="hero-lead">0chunks dark theme for vscode.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="work-container">
+            <div class="head">
+                <img src="./src/work/game-development.png" loading="lazy" alt="Game development">
+                <div>
+                    <h3 class="hero-subtitle">Game Development</h3>
+                    <p class="hero-lead">Design and develop immersive gameplay-driven tools and games that simulate cyber threats, uncover digital vulnerabilities, and encourage stronger security practices.</p>
+                </div>
+            </div>
+
+            <div class="body">
+                <a href=" https://www.bbinnotek.com/" target="_blank">
+                    <img src="./src/work/bbinnotek.png" loading="lazy" alt="bbinnotek">
+                    <div>
+                        <h4>Bbinnotek</h4>
+                        <p class="hero-lead">BB-Innotek — The first studio that gave me the opportunity to work as a game developer,
+                             and where I’m still actively building 
+                             games today.</p>
+                    </div>
+                </a>
+                
+                <!--<a href=".." target="_blank">
+                    <img src="./src/work/windows.png" loading="lazy" alt="Cyrix86">
+                    <div>
+                        <h4>cyrix86</h4>
+                        <p class="hero-lead">Windows high-level payload. CYRIx86 provides you with a fully GUI-based
+                            control panel for
+                            attacks.</p>
+                    </div>
+                </a>
+
+                <a href="..." target="_blank">
+                    <img src="./src/work/keyboard.png" loading="lazy" alt="keymon">
+                    <div>
+                        <h4>keymon</h4>
+                        <p class="hero-lead">Keylogger with a GUI-based panel. Log real-time keystrokes</p>
+                    </div>
+                </a>
+
+                <a href="..." target="_blank">
+                    <img src="./src/work/powershell.png" loading="lazy" alt="Powershell-Kovak">
+                    <div>
+                        <h4>Powershell-Kovak</h4>
+                        <p class="hero-lead">Powershell-Kovak is a Powershell obfuscation tool built with Node.js,
+                            designed for ethical
+                            hacking purposes.</p>
+                    </div>
+                </a>
+
+                <a href="..." target="_blank">
+                    <img src="./src/work/hide.png" loading="lazy" alt="EnigmaScope">
+                    <div>
+                        <h4>EnigmaScope</h4>
+                        <p class="hero-lead">EnigmaScope is a flexible Python utility that hides and encapsulates
+                            several components into
+                            a
+                            single container.</p>
+                    </div>
+                </a>
+
+                <a href="..." target="_blank">
+                    <img src="./src/work/recontime.png" loading="lazy" alt="recontime">
+                    <div>
+                        <h4>recontime</h4>
+                        <p class="hero-lead">recontime is a comprehensive bug hunting tool designed for ethical hacking
+                            purposes.</p>
+                    </div>
+                </a> -->
+            </div>
+        </div>
+
+        <div class="work-container">
+            <div class="head">
+                <img src="./src/work/game-development.png" loading="lazy" alt="FiveM server development">
+                <div>
+                    <h3 class="hero-subtitle">FiveM Server Development</h3>
+                    <p class="hero-lead">Developing FiveM roleplay servers and their communities, building scripts and systems on the QBox, ESX and QBCore frameworks.</p>
+                </div>
+            </div>
+
+            <div class="body">
+                <a class="server" href="https://discord.gg/E2XHc8W44A" target="_blank" rel="noopener noreferrer">
+                    <img src="./src/work/genzdev.png" loading="lazy" alt="GENZDEV">
+                    <div>
+                        <h4>GENZDEV</h4>
+                        <p class="hero-lead">I own and run the GENZDEV FiveM server and its Discord community, developed under my ZRDEV name.</p>
+                        <ul class="tags"><li class="role">Owner</li><li>QBox</li><li>ESX</li><li>QBCore</li></ul>
+                    </div>
+                    <span class="join">Join the Discord <i class="fa-brands fa-discord"></i></span>
+                </a>
+
+                <a class="server" href="https://discord.gg/E2XHc8W44A" target="_blank" rel="noopener noreferrer">
+                    <img src="./src/work/zrdev.png" loading="lazy" alt="ZRDEV">
+                    <div>
+                        <h4>ZRDEV <span class="aka">(Zeeradev)</span></h4>
+                        <p class="hero-lead">My nickname as a FiveM developer, building scripts and systems for QBox, ESX and QBCore servers.</p>
+                        <ul class="tags"><li class="role">Developer</li><li>QBox</li><li>ESX</li><li>QBCore</li></ul>
+                    </div>
+                    <span class="join">Join the Discord <i class="fa-brands fa-discord"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- skills -->
+    <section id="skills">
+        <h1 class="hero-title">Skills</h1>
+        <p class="hero-lead">While I may not have every language syntax memorized, my strong grasp of core programming
+            concepts allows me to effectively build and innovate across various languages and technologies.</p>
+
+        <h4 class="hero-subtitle">Programming languages</h4>
+        <div class="lang-btns">
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                        alt="javascript" />
+                </div>
+
+                <p>javascript</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                        alt="python" />
+                </div>
+
+                <p>python</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" alt="go" />
+                </div>
+
+                <p>golang</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                        alt="cplusplus" />
+                </div>
+
+                <p>c++</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                        alt="php" />
+                </div>
+
+                <p>PHP</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="c" />
+                </div>
+
+                <p>C</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg"
+                        alt="lua" />
+                </div>
+
+                <p>Lua</p>
+            </button>
+        </div>
+
+
+        <h4 class="hero-subtitle">Front-end</h4>
+        <div class="lang-btns">
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                        alt="html5" />
+                </div>
+
+                <p>HTML</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                        alt="CSS" />
+                </div>
+
+                <p>CSS</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                        alt="javascript" />
+                </div>
+
+                <p>javascript</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                        alt="bootstrap" />
+                </div>
+
+                <p>bootstrap</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bulma/bulma-plain.svg"
+                        alt="bulma" />
+                </div>
+
+                <p>bulma css</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                        alt="react" />
+                </div>
+
+                <p>react</p>
+            </button>
+        </div>
+
+        <h4 class="hero-subtitle">Back-end</h4>
+        <div class="lang-btns">
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                        alt="nodejs" />
+                </div>
+
+                <p>node js</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img style="filter: invert(1);"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                        alt="expressjs" />
+                </div>
+
+                <p>express js</p>
+            </button>
+
+            <button>
+                <div class="icon-box">
+                    <img style="filter: invert(1);"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg"
+                        alt="socketio" />
+                </div>
+
+                <p>socket.io</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img style="filter: invert(1);"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
+                        alt="flask" />
+
+                </div>
+
+                <p>flask</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"
+                        alt="fastapi" />
+                </div>
+
+                <p>fastapi</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                        alt="php" />
+                </div>
+
+                <p>PHP</p>
+            </button>
+        </div>
+
+        <h4 class="hero-subtitle">Desktop (CLI / GUI)</h4>
+        <div class="lang-btns">
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                        alt="nodejs" />
+                </div>
+
+                <p>node js</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg"
+                        alt="electron" />
+                </div>
+
+                <p>electron js</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                        alt="python" />
+                </div>
+
+                <p>python</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" alt="go" />
+                </div>
+
+                <p>golang</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                        alt="cplusplus" />
+                </div>
+
+                <p>c++</p>
+            </button>
+        </div>
+
+        <h4 class="hero-subtitle">Mobile</h4>
+        <div class="lang-btns">
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                        alt="react native" />
+                </div>
+
+                <p>react native</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+                        alt="kotlin" />
+                </div>
+
+                <p>kotlin</p>
+            </button>
+        </div>
+
+        <h4 class="hero-subtitle">Databases</h4>
+        <div class="lang-btns">
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+                        alt="mongodb" />
+                </div>
+
+                <p>mongo DB</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+                        alt="firebase" />
+                </div>
+
+                <p>firebase</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                        alt="mysql" />
+                </div>
+
+                <p>mySQL</p>
+            </button>
+
+        </div>
+
+        <h4 class="hero-subtitle">Tools and hosting</h4>
+        <div class="lang-btns">
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+                        alt="docker" />
+                </div>
+
+                <p>docker</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                        alt="git" />
+                </div>
+
+                <p>github</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/puppeteer/puppeteer-original.svg"
+                        alt="puppeteer" />
+                </div>
+
+                <p>puppeteer</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg"
+                        alt="netlify" />
+                </div>
+
+                <p>netlify</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="./src/work/glitch-i.png" alt="glitch">
+                </div>
+
+                <p>glitch</p>
+            </button>
+        </div>
+
+        <h4 class="hero-subtitle">Design</h4>
+        <div class="lang-btns">
+            <button>
+                <div class="icon-box">
+                    <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg"
+                        alt="Adobe photoshop" />
+                </div>
+
+                <p>Adobe photoshop</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="./src/icon/adobe-illustrator-svgrepo-com.svg"
+                        alt="Adobe Illustrator" />
+                </div>
+
+                <p>Adobe Illustrator</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="./src/icon/adobe-premiere-svgrepo-com.svg"
+                        alt="Adobe Premiere" />
+                </div>
+
+                <p>Adobe Premiere</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg"
+                        alt="Adobe After Effects" />
+                </div>
+
+                <p>Adobe After Effects</p>
+            </button>
+            <button>
+                <div class="icon-box">
+                    <img src="./src/icon/corel-draw-svgrepo-com.svg" alt="CorelDraw">
+                </div>
+
+                <p>CorelDraw</p>
+            </button>
+        </div>
+    </section>
+
+    <!-- blog -->
+    <section id="blog">
+        <h1 class="hero-title">Blog</h1>
+
+        <div class="blogs">
+            <a class="blog-box" href="" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src="./src/blogs/BotStore.png" alt="BOTSTORE Digital Marketplace">
+                <p class="hero-lead">BOTSTORE: Digital Accounts, Activation Keys & Premium Products. Bakong KHQR, ABA PayWay, Crypto Payments, and Discord/Google Authentication.</p>
+            </a>
+
+            <a class="blog-box" href="" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src="./src/blogs/genzstore.png" alt="GENZDEV Digital Store">
+                <p class="hero-lead">GENZDEV Digital Store: FiveM Resources, Scripts & Developer Services. Bakong KHQR Payments and Discord/Google Authentication.</p>
+            </a>
+
+
+            <a class="blog-box"
+                href="https://github.com/Borayeim/Space-Invaders-Pygame"
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/1.png"
+                    alt="Understanding Python Game Development: How to Code and Access.">
+                <p class="hero-lead">Understanding Python Game Development: How to Code and Access.
+                </p>
+            </a>
+
+            <a class="blog-box"
+                href="https://game-gthub.vercel.app/"
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/2.png"
+                    alt="Understanding javascript game development Html Css: How to code and access.">
+                <p class="hero-lead">Understanding javascript game development Html Css: How to code and access.</p>
+            </a>
+
+            <a class="blog-box"
+                href="https://github.com/Borayeim/Keylogger"
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/3.jpg" alt="Python Keylogger 101: How to Build a Keylogger">
+                <p class="hero-lead">Python Keylogger 101: How to Build a Keylogger</p>
+            </a>
+
+            <a class="blog-box" href="https://github.com/Borayeim/Wifi-dos-Attack"
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/4.png" alt="Python Keylogger 101: How to Build a Keylogger">
+                <p class="hero-lead">Spam Wi-Fi Devices, Using Python Codes</p>
+            </a>
+             <a class="blog-box" href="https://coffee1bit-bora.vercel.app/"
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/5.png" alt="Website sell coffee">
+                <p class="hero-lead">Website coffee</p>
+            </a>
+
+             <a class="blog-box" href=""
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/6.png" alt="Website coffee">
+                <p class="hero-lead"> Website coffee in php code </p>
+            </a>
+
+            <a class="blog-box" href="https://github.com/borayeim-blip/bot-discord1"
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/7.png" alt="Discord Bot ">
+                <p class="hero-lead">Discord bot build in code python to sell and buy products </p>
+            </a>
+
+            <a class="blog-box" href=""
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/8.png" alt="Poster iphon17 ">
+                <p class="hero-lead">iPhone 17 poster design</p>
+            </a>
+
+            <a class="blog-box" href=""
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/9.png" alt="Effects foods">
+                <p class="hero-lead">After Effects: food motion</p>
+            </a>
+
+            <a class="blog-box" href=""
+                target="_blank">
+                <img loading="lazy" src="./src/blogs/10.png" alt="Effects Wing">
+                <p class="hero-lead">After Effects: wing motion</p>
+            </a>
+
+            
+        </div>
+
+        <div class="more-blog">
+            <h1>Want to read more?</h1>
+            <a href="https://github.com/Borayeim" target="_blank" rel="noopener noreferrer">
+                Visit github.com/Borayeim
+            </a>
+            
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <h1 class="hero-title">Contact me</h1>
+        <h4 class="hero-subtitle">Find me on</h4>
+
+        <div class="social-btns">
+            <a href="https://t.me/borayeim" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+                <button>telegram.com/<span>@borayeim</span></button>
+            </a>
+            <a href="https://discordapp.com/users/1173917429206888508" target="_blank">
+                <i class="fa-brands fa-discord"></i>
+                <button>discordapp.com/<span>users/1173917429206888508</span></button>
+            </a>
+            <a href="https://www.tiktok.com/@bora.cyber" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+                <button>Tiktok.com/<span>@bora.cyber</span></button>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100042888410559&mibextid=LQQJ4d" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+                <button>facebook.com/<span>Bora</span></button>
+            </a>
+            <a href="https://github.com/Borayeim" target="_blank">
+               <i class="fa-brands fa-github"></i>
+                <button>github.com/<span>Yeimbora</span></button>
+            </a>
+            <a href="mailto:borayeim@gmail.com">
+                <i class='fas fa-envelope'></i>
+                <button>Gmail.com/<span>borayeim@gmail.com</span></button>
+            </a>
+           
+        </div> 
+
+        <h4 class="hero-subtitle">Send a message</h4>
+       <div class="contact-form">
+           
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone:</label>
+                
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              
+              <!-- From Uiverse.io by marcelodolza --> 
+<!-- From Uiverse.io by Pradeepsaranbishnoi --> 
+<div class="voltage-button">
+  
+    <button>Send Message </button>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 234.6 61.3" preserveAspectRatio="none" xml:space="preserve">
+ 
+    <filter id="glow">
+      <feGaussianBlur class="blur" result="coloredBlur" stdDeviation="2"></feGaussianBlur>
+      <feTurbulence type="fractalNoise" baseFrequency="0.075" numOctaves="0.3" result="turbulence"></feTurbulence>
+  <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" xChannelSelector="R" yChannelSelector="G" result="displace"></feDisplacementMap>
+      <feMerge>
+        <feMergeNode in="coloredBlur"></feMergeNode>
+        <feMergeNode in="coloredBlur"></feMergeNode>
+        <feMergeNode in="coloredBlur"></feMergeNode>
+        <feMergeNode in="displace"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+    <path class="voltage line-1" d="m216.3 51.2c-3.7 0-3.7-1.1-7.3-1.1-3.7 0-3.7 6.8-7.3 6.8-3.7 0-3.7-4.6-7.3-4.6-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-0.9-7.3-0.9-3.7 0-3.7-2.7-7.3-2.7-3.7 0-3.7 7.8-7.3 7.8-3.7 0-3.7-4.9-7.3-4.9-3.7 0-3.7-7.8-7.3-7.8-3.7 0-3.7-1.1-7.3-1.1-3.7 0-3.7 3.1-7.3 3.1-3.7 0-3.7 10.9-7.3 10.9-3.7 0-3.7-12.5-7.3-12.5-3.7 0-3.7 4.6-7.3 4.6-3.7 0-3.7 4.5-7.3 4.5-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-10-7.3-10-3.7 0-3.7-0.4-7.3-0.4-3.7 0-3.7 2.3-7.3 2.3-3.7 0-3.7 7.1-7.3 7.1-3.7 0-3.7-11.2-7.3-11.2-3.7 0-3.7 3.5-7.3 3.5-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-2.9-7.3-2.9-3.7 0-3.7 8.4-7.3 8.4-3.7 0-3.7-14.6-7.3-14.6-3.7 0-3.7 5.8-7.3 5.8-2.2 0-3.8-0.4-5.5-1.5-1.8-1.1-1.8-2.9-2.9-4.8-1-1.8 1.9-2.7 1.9-4.8 0-3.4-2.1-3.4-2.1-6.8s-9.9-3.4-9.9-6.8 8-3.4 8-6.8c0-2.2 2.1-2.4 3.1-4.2 1.1-1.8 0.2-3.9 2-5 1.8-1 3.1-7.9 5.3-7.9 3.7 0 3.7 0.9 7.3 0.9 3.7 0 3.7 6.7 7.3 6.7 3.7 0 3.7-1.8 7.3-1.8 3.7 0 3.7-0.6 7.3-0.6 3.7 0 3.7-7.8 7.3-7.8h7.3c3.7 0 3.7 4.7 7.3 4.7 3.7 0 3.7-1.1 7.3-1.1 3.7 0 3.7 11.6 7.3 11.6 3.7 0 3.7-2.6 7.3-2.6 3.7 0 3.7-12.9 7.3-12.9 3.7 0 3.7 10.9 7.3 10.9 3.7 0 3.7 1.3 7.3 1.3 3.7 0 3.7-8.7 7.3-8.7 3.7 0 3.7 11.5 7.3 11.5 3.7 0 3.7-1.4 7.3-1.4 3.7 0 3.7-2.6 7.3-2.6 3.7 0 3.7-5.8 7.3-5.8 3.7 0 3.7-1.3 7.3-1.3 3.7 0 3.7 6.6 7.3 6.6s3.7-9.3 7.3-9.3c3.7 0 3.7 0.2 7.3 0.2 3.7 0 3.7 8.5 7.3 8.5 3.7 0 3.7 0.2 7.3 0.2 3.7 0 3.7-1.5 7.3-1.5 3.7 0 3.7 1.6 7.3 1.6s3.7-5.1 7.3-5.1c2.2 0 0.6 9.6 2.4 10.7s4.1-2 5.1-0.1c1 1.8 10.3 2.2 10.3 4.3 0 3.4-10.7 3.4-10.7 6.8s1.2 3.4 1.2 6.8 1.9 3.4 1.9 6.8c0 2.2 7.2 7.7 6.2 9.5-1.1 1.8-12.3-6.5-14.1-5.5-1.7 0.9-0.1 6.2-2.2 6.2z" fill="transparent" stroke="#fff"></path>
+    <path class="voltage line-2" d="m216.3 52.1c-3 0-3-0.5-6-0.5s-3 3-6 3-3-2-6-2-3 1.6-6 1.6-3-0.4-6-0.4-3-1.2-6-1.2-3 3.4-6 3.4-3-2.2-6-2.2-3-3.4-6-3.4-3-0.5-6-0.5-3 1.4-6 1.4-3 4.8-6 4.8-3-5.5-6-5.5-3 2-6 2-3 2-6 2-3 1.6-6 1.6-3-4.4-6-4.4-3-0.2-6-0.2-3 1-6 1-3 3.1-6 3.1-3-4.9-6-4.9-3 1.5-6 1.5-3 1.6-6 1.6-3-1.3-6-1.3-3 3.7-6 3.7-3-6.4-6-6.4-3 2.5-6 2.5h-6c-3 0-3-0.6-6-0.6s-3-1.4-6-1.4-3 0.9-6 0.9-3 4.3-6 4.3-3-3.5-6-3.5c-2.2 0-3.4-1.3-5.2-2.3-1.8-1.1-3.6-1.5-4.6-3.3s-4.4-3.5-4.4-5.7c0-3.4 0.4-3.4 0.4-6.8s2.9-3.4 2.9-6.8-0.8-3.4-0.8-6.8c0-2.2 0.3-4.2 1.3-5.9 1.1-1.8 0.8-6.2 2.6-7.3 1.8-1 5.5-2 7.7-2 3 0 3 2 6 2s3-0.5 6-0.5 3 5.1 6 5.1 3-1.1 6-1.1 3-5.6 6-5.6 3 4.8 6 4.8 3 0.6 6 0.6 3-3.8 6-3.8 3 5.1 6 5.1 3-0.6 6-0.6 3-1.2 6-1.2 3-2.6 6-2.6 3-0.6 6-0.6 3 2.9 6 2.9 3-4.1 6-4.1 3 0.1 6 0.1 3 3.7 6 3.7 3 0.1 6 0.1 3-0.6 6-0.6 3 0.7 6 0.7 3-2.2 6-2.2 3 4.4 6 4.4 3-1.7 6-1.7 3-4 6-4 3 4.7 6 4.7 3-0.5 6-0.5 3-0.8 6-0.8 3-3.8 6-3.8 3 6.3 6 6.3 3-4.8 6-4.8 3 1.9 6 1.9 3-1.9 6-1.9 3 1.3 6 1.3c2.2 0 5-0.5 6.7 0.5 1.8 1.1 2.4 4 3.5 5.8 1 1.8 0.3 3.7 0.3 5.9 0 3.4 3.4 3.4 3.4 6.8s-3.3 3.4-3.3 6.8 4 3.4 4 6.8c0 2.2-6 2.7-7 4.4-1.1 1.8 1.1 6.7-0.7 7.7-1.6 0.8-4.7-1.1-6.8-1.1z" fill="transparent" stroke="#fff"></path>
+  </svg>
+  <div class="dots">
+    <div class="dot dot-1"></div>
+    <div class="dot dot-2"></div>
+    <div class="dot dot-3"></div>
+    <div class="dot dot-4"></div>
+    <div class="dot dot-5"></div>
+  </div>
+</div>
+
+            </form>
+            <p id="responseMessage"></p>
+          </div>
+    </section>
+
+    <!-- progress hand -->
+    <div id="progress-btn">
+        <i class="fa-solid fa-hand-point-up"></i>
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+    <!-- scripts -->
+    <script src="app.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <!-- Include EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    // Initialize EmailJS with your Public Key
+    (function () {
+      emailjs.init({
+        publicKey: "crpH3Ekvbjl1jLyAD", // ជំនួស YOUR_PUBLIC_KEY ដោយ Public Key របស់អ្នក
+      });
+    })();
+
+    // Handle form submission
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      // Get form data
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+      const message = document.getElementById('message').value;
+
+      // Send email using EmailJS
+      emailjs.send('service_ep5msmt', 'template_77la8s8', {
+        from_name: name,
+        from_email: email,
+        from_phone: phone,
+        message: message,
+      })
+        .then(function (response) {Swal.fire({
+  title: "Success!",
+  text: "Message sent successfully!",
+  icon: "success"
+});
+          responseMessage.classList.add('show'); // Add animation class
+
+// Play sound
+const audio = new Audio('https://www.soundjay.com/buttons/sounds/button-37.mp3'); // Replace with your sound file
+audio.play();
+
+// Reset form
+document.getElementById('contactForm').reset();
+}, function (error) {
+document.getElementById('responseMessage').textContent = 'Failed to send message. Please try again.';
+});
+});
+
+function openCV() {
+    window.open("img/BoraYeim CV Resume -1.png", "_blank");
+  }
+
+</script>
+<!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.22/build/spline-viewer.js"></script> -->
+</body>
+
+</html>
